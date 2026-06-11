@@ -1,12 +1,10 @@
-import Header from "./Header"
-
+import NavBar from "./NavBar";
 function App() {
-  return(
-  <>
-  <Header/>
-  </>
-
-  )  
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
-export default App
+export default App;
