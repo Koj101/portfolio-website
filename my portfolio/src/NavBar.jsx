@@ -3,7 +3,7 @@ import { MdSunny } from "react-icons/md";
 
 function NavBar() {
   return (
-    <div class="fixed top-0 h-16 w-screen flex flex-row items-center bg-blue-200 border-gray-500">
+    <div class="fixed top-0 h-16 w-screen flex flex-row items-center bg-blue-200 border-gray-500 inset-shadow-sm/50 inset-shadow-blue-900">
       <MdSunny
         size={32}
         class="my-2 mx-4  text-sky-950 cursor-pointer hover:text-amber-50"
@@ -12,9 +12,9 @@ function NavBar() {
         <NavText text="Home" />
         <NavText text="About" />
         <NavText text="Skills" />
-        <NavText text="Project" />
-        <NavText text="About" />
-        <button class="mx-5 p-1.5 text-xl text-blue-50 font-bold hover:mx-3 hover:text-sky-100 hover:p-2 bg-blue-500 border-2 border-blue-400 shadow-sx rounded-2xl transition-all ease-in-out hover:bg-blue-800 cursor-pointer">
+        <NavText text="Projects" />
+
+        <button class="mx-16 p-1.5 text-xl text-blue-50 font-bold  hover:text-sky-100 hover:p-2 bg-blue-500 border-2 border-blue-400 shadow-sx rounded-2xl transition-all ease-in-out hover:bg-blue-800 hover:rounded-sm hover:border-blue-800 cursor-pointer">
           Contact
         </button>
       </div>
