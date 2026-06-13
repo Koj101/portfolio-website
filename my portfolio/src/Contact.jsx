@@ -10,7 +10,7 @@ function Contact() {
   };
 
   return (
-    <div class="flex flex-row items-center m-4 w-4xl h-auto p-4">
+    <div class="flex flex-row items-center mb-9 m-4 w-4xl h-auto p-4">
       <div class="flex flex-col w-1/2">
         <h1 class="text-2xl font-bold">Contact:</h1>
 
@@ -20,8 +20,8 @@ function Contact() {
             class="flex felx-row underline text-xl hover:text-blue-700 group cursor-pointer"
           >
             My Email: net@gmail.com
-            <span class="flex text-sm scale-0 mx-3 bg-blue-900 text-blue-50 rounded-sm p-0.5 group-active:scale-100 transition-all duration-10 eas">
-              Copied
+            <span class="flex text-sm scale-0 mx-3 bg-blue-900 text-blue-50 rounded-sm p-0.5 group-hover:scale-100 transition-all duration-10 eas">
+              Copy to clipboard
             </span>
           </p>
         </div>

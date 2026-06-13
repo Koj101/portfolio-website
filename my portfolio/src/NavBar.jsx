@@ -14,7 +14,10 @@ function NavBar() {
         <NavText text="Skills" scroll={530} />
         <NavText text="Projects" />
 
-        <button class="mx-16 p-1.5 text-xl text-blue-50 font-bold  hover:text-sky-100 hover:p-2 bg-blue-500 border-2 border-blue-400 shadow-sx rounded-2xl transition-all ease-in-out hover:bg-blue-800 hover:rounded-sm hover:border-blue-800 cursor-pointer">
+        <button
+          onClick={() => NavScroll(830)}
+          class="mx-10 p-1.5 text-xl text-blue-50 font-bold  hover:text-sky-100 hover:p-2 bg-blue-500 border-2 border-blue-400 shadow-sx rounded-2xl transition-all ease-in-out hover:bg-blue-800 hover:rounded-sm hover:border-blue-800 cursor-pointer"
+        >
           Contact
         </button>
       </div>
