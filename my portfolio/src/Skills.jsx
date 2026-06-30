@@ -13,9 +13,9 @@ import { FaC } from "react-icons/fa6";
 import Icon from "./Icon";
 function Skills() {
   return (
-    <div class="flex flex-col items-center m-4 w-4xl h-auto p-4">
+    <div class="flex flex-col items-center w-sm h-auto py-16">
       <h1 class="text-2xl font-bold ">Skills</h1>
-      <div class="grid grid-cols-3 gap-1 place-items-center w-lg p-2 ">
+      <div class="grid grid-cols-3 gap-x-0 place-items-center w-xs md:w-md ">
         <Icon icon={<FaJs size={32} />} name="JavaScript" />
         <Icon icon={<FaReact size={32} />} name="React" />
         <Icon icon={<RiTailwindCssFill size={32} />} name="Tailwind" />
