@@ -6,7 +6,7 @@ import { IoIosMail } from "react-icons/io";
 
 function Contact() {
   const copyEmail = () => {
-    navigator.clipboard.writeText("net@gmail.com");
+    navigator.clipboard.writeText("tenkoj01@gmail.com");
   };
 
   return (
@@ -14,13 +14,13 @@ function Contact() {
       <div class="flex flex-col md:w-1/2">
         <h1 class=" text-2xl md:text-2xl font-bold">Contact:</h1>
 
-        <div class="flex flex-row items-center">
+        <div class="flex p-4 md:p-0 flex-row items-center">
           <p
             onClick={copyEmail}
             class=" text-md md:text-xl flex felx-row underline hover:text-blue-700 group cursor-pointer transition-all "
           >
-            My Email: net@gmail.com
-            <span class="flex text-sm scale-0 mx-3 bg-blue-900 text-blue-50 rounded-sm p-0.5 group-hover:scale-100 transition-all duration-200 ease-out">
+            My Email: tenkoj01@gmail.com
+            <span class="flex text-sm scale-0 mx-8 bg-blue-900 text-blue-50 rounded-sm p-0.5 group-hover:scale-100 transition-all duration-200 ease-out">
               Copy to clipboard
             </span>
           </p>
@@ -38,7 +38,7 @@ function Contact() {
         />
         <IconButton
           icon={<IoIosMail size={56} />}
-          url={"mailto:net@gmail.com"}
+          url={"mailto:tenkoj01@gmail.com"}
         />
       </div>
     </div>
