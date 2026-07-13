@@ -1,15 +1,16 @@
 import { useState } from "react";
 import Carsouel from "./ProjectList";
 import project0 from "./assets/placeholderImg.png";
+import blogImg from "./assets/AppleBlog1.png";
 
 function Projects() {
   let projects = [
     {
       id: 0,
       name: "Express Webiste",
-      img: project0,
+      img: blogImg,
       description:
-        "A small blog Webiste made using Node.js, Express and MongoDB",
+        "A small blog webiste made using Node.js, Express and MongoDB. A user with database access can post delete blog object to the mongodb noSQL database",
     },
     {
       id: 1,
