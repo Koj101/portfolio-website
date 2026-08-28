@@ -5,7 +5,7 @@ function Carsouel({ slides }) {
       {slides.map((s, index) => (
         <div className="p-8">
           <img
-            className="w-xs p-4 md:p-2 md:w-lg h-auto hover:w-sm md:hover:w-xl transition-all"
+            className="w-xs p-4 md:p-2 md:w-lg h-auto hover:scale-110 md:hover:scale-110 transition-all"
             key={s.id}
             src={s.img}
           ></img>

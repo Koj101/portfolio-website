@@ -1,6 +1,6 @@
 function Bio() {
   return (
-    <div class="flex justify-center flex-col m-4  w-xs  md:w-2xl lg:w-4xl h-auto p-4 mt-24 shadow-xl shadow-gray-400/25 bg-blue-50 rounded-b-xl border-2 border-b-8 border-gray-400 transition-all duration-500 ease-in-out">
+    <div class="flex justify-center flex-col m-4  w-xs  md:w-2xl lg:w-4xl h-auto p-4 mt-24 shadow-xl shadow-gray-400/25 bg-blue-50 rounded-b-xl border-2 border-b-8 border-gray-400 transition-all hover:scale-110 duration-500 ease-in-out">
       <p class="text-lg md:text-2xl">Hi I'm</p>
       <h1 class=" text-5xl md:text-7xl lg:text-8xl p-4 font-semibold">
         Kojo Tenkorang
